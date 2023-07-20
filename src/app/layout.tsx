@@ -4,9 +4,8 @@ import Layout from '@/components/layouts'
 import { cn } from '@/lib/utils'
 import { fontSans } from '@/styles/fonts'
 
+import { APP_NAME } from '@/data/constants'
 import '@/styles/globals.css'
-
-const APP_NAME = 'next-starter-tailwind'
 
 export const metadata: Metadata = {
   title: APP_NAME,
