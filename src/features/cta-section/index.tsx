@@ -8,6 +8,7 @@ const CTASection = () => {
     <div className="flex items-center gap-2">
       <Button
         asChild
+        fontSize="sm"
         className="bg-gradient-to-br from-gray-100 to-green-200 font-semibold text-green-700 hover:from-gray-200 hover:to-green-200 hover:text-green-800"
       >
         <a
@@ -20,7 +21,7 @@ const CTASection = () => {
       </Button>
       <Button asChild variant="link">
         <a
-          className=" rounded-3xl p-2 text-xs font-semibold"
+          className="rounded-3xl p-2 text-xs font-semibold"
           href={`https://github.com/${repoName}`}
           target="_blank"
           rel="noopener noreferrer"

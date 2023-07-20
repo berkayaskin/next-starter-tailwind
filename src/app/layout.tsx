@@ -53,9 +53,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
           fontSans.variable
         )}
       >
-        <Layout>
-          <div className="flex-1">{children}</div>
-        </Layout>
+        <Layout>{children}</Layout>
       </body>
     </html>
   )
