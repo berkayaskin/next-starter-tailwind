@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 
-import CTASection from '@/features/cta-section'
-import StarterText from '@/features/starter-text'
+import CTASection from '@/components/samples/cta-section'
+import StarterText from '@/components/samples/starter-text'
 
 const Home: NextPage = () => {
   return (
